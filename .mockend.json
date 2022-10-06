@@ -1,4 +1,22 @@
 {
+  "Contact": {
+    "firstname": { "string": {} },
+    "lastname": { "string": {} },
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "phone": {
+      "int": {
+        "min": 444444444,
+        "max": 888888888
+      }
+    },
+    "company": { "string": {} },
+    "street": { "string": {} },
+    "city": { "string": {} },
+    "postal_code": { "string": {} },
+    "country": { "string": {} },
+  },
   "Post": {
     "title": { "string": {} },
     "comments": {
