@@ -15,7 +15,7 @@
     "street": { "string": {} },
     "city": { "string": {} },
     "postal_code": { "string": {} },
-    "country": { "string": {} },
+    "country": { "string": {} }
   },
   "Post": {
     "title": { "string": {} },
