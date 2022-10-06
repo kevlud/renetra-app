@@ -1,7 +1,7 @@
 {
   "Contact": {
-    "firstname": { "string": {} },
-    "lastname": { "string": {} },
+    "firstname": { "loremWord": {} },
+    "lastname": { "loremWord": {} },
     "email": {
       "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
@@ -11,11 +11,11 @@
         "max": 888888888
       }
     },
-    "company": { "string": {} },
+    "company": { "loremWord": {} },
     "street": { "string": {} },
-    "city": { "string": {} },
+    "city": { "loremWord": {} },
     "postal_code": { "string": {} },
-    "country": { "string": {} }
+    "country": { "loremWord": {} }
   },
   "Post": {
     "title": { "string": {} },
