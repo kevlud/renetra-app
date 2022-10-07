@@ -12,7 +12,7 @@
       }
     },
     "company": { "loremWord": {} },
-    "street": { "string": {} },
+    "street": { "loremWord": {} },
     "city": { "loremWord": {} },
     "postal_code": { "string": {} },
     "country": { "loremWord": {} }
