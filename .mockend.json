@@ -14,7 +14,7 @@
     "company": { "loremWord": {} },
     "street": { "loremWord": {} },
     "city": { "loremWord": {} },
-    "postal_code": { "string": {} },
+    "postal_code": { "regexp": "[A-Z][a-z]{5,10}" },
     "country": { "loremWord": {} }
   },
   "Post": {
